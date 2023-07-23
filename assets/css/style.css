@@ -1,0 +1,359 @@
+body {
+  font-family: "Nunito", sans-serif;
+}
+h5 {
+  font-weight: 700;
+}
+.top-notification {
+  display: none;
+}
+div#sidebar-menu {
+  position: fixed;
+  left: 0;
+  height: 100%;
+  width: 60px;
+  background: #fff;
+}
+.sidebar-menu-item ul li {
+  margin-bottom: 15px;
+}
+.sidebar-menu-item ul li a {
+  display: inline-block;
+  padding: 3px 5px;
+  color: #acacac;
+  font-size: 20px;
+}
+.sidebar-menu-item ul li a.active {
+  background: #4935ff;
+  border-radius: 5px;
+  color: #fff !important;
+}
+.sidebar-menu-item ul li a img {
+  width: 25px;
+}
+div#main-section {
+  padding: 0 0.75rem;
+}
+.user-information {
+  margin-left: calc(60px - 0.75rem);
+  background: #fafafa;
+  padding: 40px 25px;
+  height: 100%;
+}
+.user-avatarname .avatar img {
+  width: 80px;
+}
+.user-avatarname .name h2 {
+  font-size: 26px;
+}
+
+.user-avatarname .name h2,
+.balance-info h2,
+.balance-info h5 {
+  font-weight: 800;
+}
+.balance-info p,
+.compare-peers > p,
+.learn-more > span {
+  font-size: 14px;
+  color: #a09a9a;
+  font-weight: 600;
+}
+.account-info button {
+  background: #4935ff;
+  color: #fff;
+  padding: 10px 50px 10px 30px;
+  border-radius: 10px;
+}
+button {
+  border: none;
+  background: transparent;
+}
+button:focus {
+  outline: none;
+}
+button span {
+  display: inline-block;
+  position: relative;
+}
+button span:before {
+  content: "\f0d7";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  right: -20px;
+  top: -1px;
+}
+
+.balance-info h6 {
+  font-weight: 700;
+  font-size: 13px;
+}
+
+.middle-body {
+  padding: 40px 65px 40px 25px;
+}
+.retirement-income > p {
+  font-weight: 700;
+  color: #4935ff;
+}
+.retirement-income h4 {
+  font-weight: 700;
+}
+.retirement-income .balance-info {
+  border-bottom: 2px solid #4935ff;
+}
+
+.compare-left p:not(:last-child) {
+  padding-bottom: 5px;
+  border-bottom: 1px solid #eee;
+}
+.compare-left button span {
+  color: #555252;
+  font-weight: 600;
+}
+.compare-left button span:before {
+  right: -15px;
+}
+
+/* 
+==================
+*/
+.set-size {
+  font-size: 6em;
+}
+
+.charts-container:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.pie-wrapper {
+  height: 1em;
+  width: 1em;
+  float: right;
+  margin: 0px;
+  position: relative;
+}
+
+.pie-wrapper .pie {
+  height: 100%;
+  width: 100%;
+  clip: rect(0, 1em, 1em, 0.5em);
+  left: -2px;
+  position: absolute;
+  top: -2px;
+}
+.pie-wrapper .pie .half-circle {
+  height: 100%;
+  width: 100%;
+  border: 0.1em solid #3498db;
+  border-radius: 50%;
+  clip: rect(0, 0.5em, 1em, 0);
+  left: 0;
+  position: absolute;
+  top: 0;
+}
+.pie-wrapper .label {
+  background: #34495e;
+  border-radius: 50%;
+  bottom: 0.4em;
+  color: #ecf0f1;
+  cursor: default;
+  display: block;
+  font-size: 0.25em;
+  left: 0.4em;
+  line-height: 2.8em;
+  position: absolute;
+  right: 0.4em;
+  text-align: center;
+  top: 0.4em;
+}
+.pie-wrapper .label .smaller {
+  color: #bdc3c7;
+  font-size: 0.45em;
+  padding-bottom: 20px;
+  vertical-align: super;
+}
+.pie-wrapper .shadow {
+  height: 95%;
+  width: 95%;
+  border: 5px solid #d3f7ee;
+  border-radius: 50%;
+  box-shadow: none !important;
+}
+.pie-wrapper.style-2 .label {
+  background: none;
+  color: #242424;
+  font-weight: 700;
+}
+.pie-wrapper.style-2 .label .smaller {
+  color: #242424;
+  font-weight: 700;
+}
+
+.pie-wrapper.progress-59 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+.pie-wrapper .pie .half-circle {
+  border-color: #22d6aa;
+}
+.pie-wrapper.progress-59 .pie .left-side {
+  transform: rotate(216deg);
+}
+.pie-wrapper.progress-59 .pie .right-side {
+  transform: rotate(180deg);
+}
+
+.pie-wrapper.progress-78 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.pie-wrapper.progress-78 .pie .left-side {
+  transform: rotate(270deg);
+}
+.pie-wrapper.progress-78 .pie .right-side {
+  transform: rotate(180deg);
+}
+.pie-wrapper.progress-95 .pie {
+  clip: rect(auto, auto, auto, auto);
+}
+
+.pie-wrapper.progress-95 .pie .left-side {
+  transform: rotate(342deg);
+}
+.pie-wrapper.progress-95 .pie .right-side {
+  transform: rotate(180deg);
+}
+.pie-wrapper p {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.retirement-strategy {
+  padding: 40px 0px;
+  margin-right: calc(60px - 0.75rem);
+}
+
+.retirement-main {
+  background: #fafafa;
+  padding: 25px;
+  border-radius: 5px;
+}
+.retirement-main button {
+  background: #4935ff;
+  color: #fff;
+  border-radius: 10px;
+  width: 100%;
+  padding: 12px 0px;
+}
+
+.strategy-item.item-3,
+.strategy-item div.slider-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.strategy-item span {
+  background: #fff;
+  padding: 5px;
+}
+.strategy-item.item-3 span {
+  background: inherit;
+}
+.strategy-item h6,
+.strategy-item span {
+  font-size: 15px;
+  font-weight: 700;
+}
+.range-slider {
+  position: relative;
+  user-select: none;
+  display: flex;
+  width: 80%;
+}
+.range-slider input {
+  -webkit-appearance: none;
+  background: #ececec;
+  height: 5px;
+  border-radius: 10px;
+  width: 150px;
+  cursor: pointer;
+  width: 100%;
+}
+.slider-main .value {
+  width: 20%;
+  text-align: right;
+}
+.range-slider input::-webkit-slider-thumb,
+.slider-thumb1,
+.slider-thumb2 {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+.range-slider input::-webkit-slider-thumb {
+  position: relative;
+  -webkit-appearance: none;
+  /* background: red; */
+  z-index: 300;
+}
+
+.slider-thumb1 {
+  position: absolute;
+  top: 50%;
+  left: 57%;
+  transform: translate(-43%, -50%);
+  background: #fff;
+  box-shadow: 0px 0px 5px 1px #ddd;
+  z-index: 200;
+}
+.progress-bar1 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 57%;
+  height: 100%;
+  background: #76a1f3;
+  border-radius: 0.4rem;
+}
+
+.slider-thumb2 {
+  position: absolute;
+  top: 50%;
+  left: 67%;
+  transform: translate(-33%, -50%);
+  background: #fff;
+  box-shadow: 0px 0px 5px 1px #ddd;
+  z-index: 200;
+}
+.progress-bar2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 67%;
+  height: 100%;
+  background: #76a1f3;
+  border-radius: 0.4rem;
+}
+
+.learn-more {
+  margin-right: calc(60px - 0.75rem);
+  padding-left: 25px;
+  border-left: 1px solid #4935ff;
+}
+
+.retirement-strategy a,
+.learn-more a {
+  color: #4935ff;
+  font-weight: 700;
+  font-size: 15px;
+}
+.learn-more p span {
+  font-weight: 700;
+}
+.retirement-strategy a svg,
+.learn-more a svg {
+  font-size: 12px !important;
+}

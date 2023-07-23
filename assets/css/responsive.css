@@ -1,0 +1,250 @@
+@media only screen and (min-width: 1200px) {
+  .compare-left p {
+    font-size: 15px;
+  }
+  .user-avatarname .avatar img {
+    width: 60px;
+  }
+  .user-avatarname .name p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .user-avatarname .name h2 {
+    font-size: 36px;
+  }
+  .user-avatarname .avatar img {
+    width: 90px;
+  }
+  .user-avatarname .name p {
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 1199px) {
+  .user-avatarname .name h2 {
+    font-size: 28px;
+  }
+  .middle-body {
+    padding: 40px 10px;
+  }
+
+  .retirement-strategy {
+    margin-right: 0;
+  }
+  .learn-more {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  .user-avatarname .name h2 {
+    font-size: 26px;
+  }
+  .middle-body {
+    padding: 40px 10px;
+  }
+  .set-size {
+    font-size: 4em;
+  }
+  .compare-left p {
+    font-size: 12px;
+  }
+  .balance-info p,
+  .compare-peers > p,
+  .learn-more > span {
+    font-size: 12px;
+    color: #a09a9a;
+    font-weight: 600;
+  }
+  .learn-more {
+    margin-bottom: 50px;
+  }
+
+  .retirement-strategy {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .top-notification {
+    display: block;
+    text-align: right;
+    padding: 0px 25px;
+  }
+  .top-notification a {
+    display: inline-block;
+    padding: 3px 5px;
+    color: #acacac;
+    font-size: 20px;
+    margin: 20px 0px 25px 0px;
+  }
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  div#sidebar-menu {
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    z-index: 9999;
+    width: 100%;
+    background: #fff;
+  }
+  .sidebar-menu-item ul:last-child {
+    display: none;
+  }
+  .sidebar-menu-item ul:first-child li:first-child {
+    display: none;
+  }
+  .user-information {
+    margin-left: 0;
+    background: inherit;
+    padding: 10px 15px;
+    height: 100%;
+  }
+  .account-info {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .middle-body {
+    padding: 30px 15px;
+  }
+  .retirement-income .balance-info {
+    border-bottom: 1px solid #4935ff;
+  }
+  .balance-info p,
+  .compare-peers > p,
+  .learn-more > span {
+    font-size: 12px;
+    color: #a09a9a;
+    font-weight: 600;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h5.three,
+  h4 {
+    font-size: 16px;
+  }
+  .balance-info h2 {
+    font-size: 30px;
+  }
+  .balance-info p span {
+    display: none;
+  }
+  .account-info button {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .account-info button span:before {
+    content: "...";
+    right: -12px;
+  }
+  .retirement-income > p {
+    font-size: 12px;
+  }
+  .compare-left p {
+    font-size: 13px;
+  }
+  .set-size {
+    font-size: 5em;
+  }
+  .retirement-strategy {
+    margin-right: 0;
+  }
+
+  .learn-more {
+    margin-bottom: 100px;
+  }
+}
+@media only screen and (max-width: 575px) {
+  ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  div#sidebar-menu {
+    position: fixed;
+    bottom: 0px;
+    height: 70px;
+    z-index: 9999;
+    width: 100%;
+    background: #fff;
+  }
+  .sidebar-menu-item ul:last-child {
+    display: none;
+  }
+  .sidebar-menu-item ul:first-child li:first-child {
+    display: none;
+  }
+  .user-information {
+    margin-left: 0;
+    background: inherit;
+    padding: 10px 15px;
+    height: 100%;
+  }
+  .account-info {
+    background: #fafafa;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  .middle-body {
+    padding: 30px 15px;
+  }
+  .retirement-income .balance-info {
+    border-bottom: 1px solid #4935ff;
+  }
+  .balance-info p,
+  .compare-peers > p,
+  .learn-more > span {
+    font-size: 12px;
+    color: #a09a9a;
+    font-weight: 600;
+  }
+  h5 {
+    font-size: 16px;
+  }
+  h5.three,
+  h4 {
+    font-size: 18px;
+  }
+  .balance-info h2 {
+    font-size: 30px;
+  }
+  .balance-info p span {
+    display: none;
+  }
+  .account-info button {
+    margin-top: 15px;
+    width: 100%;
+  }
+  .account-info button span:before {
+    content: "...";
+    right: -12px;
+  }
+  .retirement-income > p {
+    font-size: 12px;
+  }
+  .compare-left p {
+    font-size: 13px;
+  }
+  .set-size {
+    font-size: 4em;
+  }
+  .retirement-strategy {
+    margin-right: 0;
+  }
+
+  .learn-more {
+    margin-bottom: 100px;
+  }
+
+  .pie-wrapper {
+    margin: 0px auto;
+    float: inherit;
+  }
+}
